@@ -24,7 +24,7 @@ python -m http.server 5500
 index.html 등        페이지마다 한 장
 assets/site.css      레이아웃 · 테마 · 파트 스타일
 assets/init.js       3D 효과 마운트
-effects/             효과 팩 (_core · tilt-card · model-showcase · smooth-scroll · cursor-dot)
+effects/             효과 팩 (_core · tilt-card · scroll-reveal · hover-preview · model-showcase · smooth-scroll · cursor-dot)
 ```
 
 ## 고치는 법

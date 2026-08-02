@@ -19,7 +19,7 @@
       <span class="wf-bg__veil" style="background-color:rgba(0,0,0,0.55)"></span>
     </div>
     <span class="wf-grain" style="opacity:0.22" aria-hidden="true"></span>
-    <div class="wf" style="grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);grid-template-rows:auto 1fr;gap:18px">
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);grid-template-rows:auto;gap:18px">
     <header class="wf__region has-divider" data-enter="up" style="grid-column:1 / -1;grid-row:1;min-height:76px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(16px, 6vw);background-color:rgba(240, 246, 255, 1)">
       <div class="wf-bar" style="justify-content:space-between">
         <span class="wf-bar__logo">자두와 송진</span>
@@ -31,7 +31,18 @@
         <button type="button" class="wf-mode" data-mode-toggle aria-label="다크 / 라이트 전환"><svg class="wf-mode__moon" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="wf-mode__sun" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></button>
       </div>
     </header>
-    <section class="wf__region" id="올해의-여섯" data-enter="left" style="grid-column:1;grid-row:2;min-height:300px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(36px, 6vw);background-color:rgba(240, 246, 255, 1)" data-fx="tilt" data-fx-max-tilt="12" data-fx-perspective="900" data-fx-scale="1.02" data-fx-speed="12" data-fx-glare="true" data-fx-max-glare="0.35" data-fx-axis="both">
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:18px">
+      <section class="wf__region" data-enter="up" style="min-height:320px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(48px, 6vw);background-color:rgba(240, 246, 255, 1)">
+      <div class="wf-hero" style="align-items:center;text-align:center">
+        <h1 class="wf-hero__title" style="font-size:clamp(1.9em, 8.5vw, calc(1.2 * 3.2em))">냄새는 기억보다<br />먼저 도착합니다</h1>
+        <p class="wf-hero__sub">자두 껍질과 소나무 송진에서 시작한 향을 만듭니다. 원료는 산지와 채취 시기까지 적어 공개합니다.</p>
+        <a class="wf-btn" style="background:transparent;border:2px solid var(--wf-accent);color:var(--wf-accent);border-radius:8px" href="#contact">향 목록 보기</a>
+      </div>
+    </section>
+    </div>
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);grid-template-rows:1fr;gap:18px">
+    <section class="wf__region" id="올해의-여섯" data-enter="left" style="grid-column:1;grid-row:1;min-height:300px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(36px, 6vw);background-color:rgba(240, 246, 255, 1)" data-fx="tilt reveal preview" data-fx-tilt-card-max-tilt="12" data-fx-tilt-card-perspective="900" data-fx-tilt-card-scale="1.02" data-fx-tilt-card-speed="12" data-fx-tilt-card-glare="true" data-fx-tilt-card-max-glare="0.35" data-fx-tilt-card-axis="both" data-fx-scroll-reveal-preset="rise" data-fx-scroll-reveal-duration="700" data-fx-scroll-reveal-delay="0" data-fx-scroll-reveal-distance="28" data-fx-scroll-reveal-rotate="22" data-fx-scroll-reveal-scale="0.92" data-fx-scroll-reveal-threshold="0.15" data-fx-scroll-reveal-repeat="false" data-fx-hover-preview-width="240" data-fx-hover-preview-speed="0.16" data-fx-hover-preview-offset-x="24" data-fx-hover-preview-offset-y="-20" data-fx-hover-preview-rotate="3">
       <div class="wf-gal">
         <h2 class="wf-sec__title">올해의 여섯</h2>
         <div class="wf-gal__grid" style="grid-template-columns:repeat(2, minmax(0, 1fr))">
@@ -69,6 +80,24 @@
               <b class="wf-card__title">06 · 첫눈 오기 전</b>
               <span class="wf-card__stack">탑: 알데하이드 / 미들: 아이리스 / 베이스: 화이트 앰버</span>
               <span class="wf-card__desc">눈이 오기 직전 공기의 마른 냄새를 목표로 했습니다.</span>
+              
+            </span></a>
+          <a class="wf-card has-detail" href="#detail-c-7"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwykiwt.webp" alt="Plum fruit growing tree" loading="lazy" style="object-fit:cover" /></span><span class="wf-card__body">
+              <b class="wf-card__title">늦여름 자두</b>
+              <span class="wf-card__stack">탑: 자두 껍질 · 미들: 제라늄</span>
+              <span class="wf-card__desc">설익은 자두의 신맛을 그대로 남겼습니다.</span>
+              
+            </span></a>
+          <a class="wf-card has-detail" href="#detail-c-8"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwz3kgv.webp" alt="Pine Tree Bark" loading="lazy" style="object-fit:cover" /></span><span class="wf-card__body">
+              <b class="wf-card__title">젖은 송진</b>
+              <span class="wf-card__stack">탑: 갈바넘 · 베이스: 발삼</span>
+              <span class="wf-card__desc">비 온 뒤 소나무 줄기에서 나는 냄새.</span>
+              
+            </span></a>
+          <a class="wf-card has-detail" href="#detail-c-9"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwz849w.webp" alt="Crank the Contrast on the Glass Bottles" loading="lazy" style="object-fit:cover" /></span><span class="wf-card__body">
+              <b class="wf-card__title">빈 병 · 리필</b>
+              <span class="wf-card__stack">유리 100ml · 알루미늄 마개</span>
+              <span class="wf-card__desc">쓰던 병을 가져오면 채워 드립니다.</span>
               
             </span></a>
         </div>
@@ -138,9 +167,42 @@
               
             </div>
           </div>
+        <div class="wf-detail" id="detail-c-7">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              <img class="wf-detail__img" src="./assets/images/imgmsbwykiwt.webp" alt="Plum fruit growing tree" loading="lazy" style="object-fit:cover" />
+              <b class="wf-detail__title">늦여름 자두</b>
+              <span class="wf-card__stack">탑: 자두 껍질 · 미들: 제라늄</span>
+              <p class="wf-detail__body">과육이 아니라 껍질에서만 추출했습니다. 단맛이 빠지고 떫은 기가 남습니다.</p>
+              
+            </div>
+          </div>
+        <div class="wf-detail" id="detail-c-8">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              <img class="wf-detail__img" src="./assets/images/imgmsbwz3kgv.webp" alt="Pine Tree Bark" loading="lazy" style="object-fit:cover" />
+              <b class="wf-detail__title">젖은 송진</b>
+              <span class="wf-card__stack">탑: 갈바넘 · 베이스: 발삼</span>
+              <p class="wf-detail__body">송진은 온도에 예민해 배합을 세 번 다시 잡았습니다.</p>
+              
+            </div>
+          </div>
+        <div class="wf-detail" id="detail-c-9">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              <img class="wf-detail__img" src="./assets/images/imgmsbwz849w.webp" alt="Crank the Contrast on the Glass Bottles" loading="lazy" style="object-fit:cover" />
+              <b class="wf-detail__title">빈 병 · 리필</b>
+              <span class="wf-card__stack">유리 100ml · 알루미늄 마개</span>
+              <p class="wf-detail__body">병값만큼 빼 드립니다. 라벨은 다시 붙여 드립니다.</p>
+              
+            </div>
+          </div>
       </div>
     </section>
-    <section class="wf__region wf-tfx wf-tfx--blur wf-tfx-on--title" id="만드는-방식" data-enter="right" style="grid-column:2;grid-row:2;min-height:240px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(36px, 6vw);background-color:rgba(240, 246, 255, 1);--tfx-step:40ms;--tfx-delay:0ms">
+    <section class="wf__region wf-tfx wf-tfx--blur wf-tfx-on--title" id="만드는-방식" data-enter="right" style="grid-column:2;grid-row:1;min-height:240px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(36px, 6vw);background-color:rgba(240, 246, 255, 1);--tfx-step:40ms;--tfx-delay:0ms">
       <div class="wf-sec" style="align-items:flex-start">
         <h2 class="wf-sec__title">만드는 방식</h2>
         <div class="wf-sec__cols" style="grid-template-columns:repeat(1, minmax(0, 1fr))">
@@ -154,6 +216,16 @@
       <div class="wf__region" data-enter="up" style="min-height:380px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(0px, 6vw);background-color:rgba(240, 246, 255, 1)">
       <div class="wf-3d fx-model" style="height:min(500px, 62vh)" data-fx-src="./assets/files/brass_vase.glb" data-fx-environment-image="./assets/images/imgmsbn48f924.hdr" data-fx-alt="리필용 황동 병 — 드래그해서 돌려 보세요" data-fx-camera-controls="true" data-fx-auto-rotate="true" data-fx-disable-zoom="true" data-fx-disable-pan="true" data-fx-exposure="1.15" data-fx-shadow-intensity="0.75" data-fx-shadow-softness="1" data-fx-auto-rotate-delay="3000" data-fx-rotation-per-second="18deg" data-fx-autoplay="true" data-fx-interaction-prompt="auto" data-fx-ar="false" data-fx-skybox="false" data-fx-follow="false" data-fx-follow-decay="80" data-fx-follow-yaw="28" data-fx-follow-pitch="10"></div>
     </div>
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:18px">
+      <section class="wf__region" data-enter="up" style="min-height:180px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(0px, 6vw);background-color:rgba(240, 246, 255, 1)">
+      <div class="wf-mq is-pausable" style="--mq-t:36s;--mq-size:2.2em;--mq-dir:reverse">
+        <div class="wf-mq__track">
+          <span class="wf-mq__set"><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i></span>
+          <span class="wf-mq__set" aria-hidden="true"><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i></span>
+        </div>
+      </div>
+    </section>
     </div>
     <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:18px">
       <section class="wf__region" data-enter="up" style="min-height:190px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(44px, 6vw);background-color:rgba(240, 246, 255, 1)">
