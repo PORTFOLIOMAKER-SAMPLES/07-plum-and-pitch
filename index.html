@@ -11,22 +11,24 @@
   <meta name="twitter:card" content="summary" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%237c3f9e%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2240%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3E%EC%9E%90%3C%2Ftext%3E%3C%2Fsvg%3E" />
   <link rel="stylesheet" href="./assets/site.css" />
+  <style>@view-transition { navigation: auto; }</style>
 </head>
 <body>
-  <div class="wf-page wf-enter wf-enter--sides" style="font-family:'Manrope', -apple-system, 'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, sans-serif;background:#f0f6ff;--wf-bg:#f0f6ff;--wf-text:#0f1e3d;color:#0f1e3d;--wf-surface:#ffffff;--wf-line:#cbd9f0;--wf-muted:#3b5482;--wf-accent:#2563eb;--wf-max:1280px;padding:10px 18px;--fx-dot-color:#60a5fa;--fx-star-color:#3b5482;--fx-char-color:#0f1e3d;--enter-at:2%;--wfm-bg:#101116;--wfm-text:#eceef4;--wfm-surface:#181a22;--wfm-line:#2a2d38;--wfm-muted:#a6aab8;gap:18px">
+  <div class="wf-page wf-enter wf-enter--zoom wf-ix" style="font-family:'Instrument Serif', 'Nanum Myeongjo', AppleMyungjo, Batang, Georgia, serif;background:#f0eee9;--wf-bg:#f0eee9;--wf-text:#22252b;color:#22252b;--wf-surface:#faf9f6;--wf-line:#ddd8ce;--wf-muted:#5b5f68;--wf-accent:#1e5a61;--wf-max:1280px;padding:10px 18px;--fx-dot-color:#a9a396;--fx-star-color:#5b5f68;--fx-char-color:#22252b;--enter-at:2%;--wfm-bg:#101116;--wfm-text:#eceef4;--wfm-surface:#181a22;--wfm-line:#2a2d38;--wfm-muted:#a6aab8;gap:18px">
     <div class="wf-bg wf-bg--tile wf-bg--sfx-zoom" style="background-image:url('./assets/images/imgmsbnod2525.webp');" aria-hidden="true">
       <img class="wf-bg__media" style="filter:grayscale(0.7)" src="./assets/images/imgmsbnod2525.webp" alt="" />
       <span class="wf-bg__veil" style="background-color:rgba(0,0,0,0.55)"></span>
     </div>
+    <span class="wf-progress" aria-hidden="true"></span>
     <span class="wf-grain" style="opacity:0.22" aria-hidden="true"></span>
     <div class="wf" style="grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);grid-template-rows:auto;gap:18px">
-    <header class="wf__region has-divider" data-enter="up" style="grid-column:1 / -1;grid-row:1;min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(16px, 6vw);background-color:rgba(240, 246, 255, 1)">
+    <header class="wf__region is-sticky has-divider" data-enter="up" style="grid-column:1 / -1;grid-row:1;min-height:0px;border-radius:18px;border-width:0px;padding:min(16px, 6vw);background-color:rgba(240, 238, 233, 1)">
       <div class="wf-bar" style="justify-content:space-between">
         <span class="wf-bar__logo">자두와 송진</span>
         <nav class="wf-nav">
-        <a href="#%EC%98%AC%ED%95%B4%EC%9D%98-%EC%97%AC%EC%84%AF" class="wf-nav__item">올해의 여섯</a>
+        <a href="#%EC%98%AC%ED%95%B4-%EB%82%B8-%ED%96%A5" class="wf-nav__item">올해 낸 향</a>
         <a href="#%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EC%8B%9D" class="wf-nav__item">만드는 방식</a>
-        <a href="#%EC%88%AB%EC%9E%90%EB%A1%9C" class="wf-nav__item">숫자로</a>
+        <a href="#%EC%88%AB%EC%9E%90" class="wf-nav__item">숫자</a>
         <a href="#%EC%9E%90%EC%A3%BC-%EC%93%B0%EB%8A%94-%EC%9B%90%EB%A3%8C" class="wf-nav__item">자주 쓰는 원료</a>
       </nav>
         <a class="wf-btn wf-btn--sm" href="#contact">시향 신청</a>
@@ -35,24 +37,24 @@
     </header>
     </div>
     <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:18px">
-      <section class="wf__region" data-enter="up" style="min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(48px, 6vw);background-color:rgba(240, 246, 255, 1)">
+      <section class="wf__region" data-enter="up" style="min-height:0px;border-radius:18px;border-width:0px;padding:min(48px, 6vw);background-color:rgba(240, 238, 233, 1)">
       <div class="wf-hero" style="align-items:center;text-align:center">
         
-        <h1 class="wf-hero__title" style="font-size:clamp(1.9em, 8.5vw, calc(1.2 * 3.2em))">냄새는 기억보다<br />먼저 도착합니다</h1>
+        <h1 class="wf-hero__title" style="font-size:clamp(1.9em, 8.5vw, calc(1.2 * 3.2em))">자두와 송진으로<br />만드는 향수</h1>
         <p class="wf-hero__sub">자두 껍질과 소나무 송진에서 시작한 향을 만듭니다. 원료는 산지와 채취 시기까지 적어 공개합니다.</p>
-        <a class="wf-btn" style="background:transparent;border:2px solid var(--wf-accent);color:var(--wf-accent);border-radius:8px" href="#contact">향 목록 보기</a>
+        <a class="wf-btn" style="background:transparent;border:2px solid var(--wf-btn-ink, var(--wf-accent));color:var(--wf-btn-ink, var(--wf-accent));box-shadow:none;border-radius:8px" href="#contact">향 목록 보기</a>
       </div>
     </section>
     </div>
     <div class="wf wf--row" style="grid-template-columns:repeat(2, minmax(0, 1fr));gap:18px">
-      <section class="wf__region" id="숫자로" data-enter="left" style="min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(36px, 6vw);background-color:rgba(240, 246, 255, 1)">
+      <section class="wf__region" id="숫자" data-enter="left" style="min-height:0px;border-radius:18px;border-width:0px;padding:min(36px, 6vw);background-color:rgba(240, 238, 233, 1)">
       <div class="wf-sec" style="align-items:flex-start">
-        <h2 class="wf-sec__title">숫자로</h2>
+        <h2 class="wf-sec__title">숫자</h2>
         
         <div class="wf-stats"><div class="wf-stat"><b class="wf-stat__num"><i class="wf-stat__count" style="--wf-n-to:9" aria-hidden="true"></i><span class="wf-stat__plain" aria-hidden="true">9</span><span class="wf-sr">9</span></b><span class="wf-stat__label">낸 향(누적)</span></div><div class="wf-stat"><b class="wf-stat__num"><i class="wf-stat__count" style="--wf-n-to:214" aria-hidden="true"></i><span class="wf-stat__plain" aria-hidden="true">214</span><span class="wf-sr">214</span></b><span class="wf-stat__label">시제품 폐기</span></div><div class="wf-stat"><b class="wf-stat__num"><i class="wf-stat__count" style="--wf-n-to:7" aria-hidden="true"></i><span class="wf-stat__plain" aria-hidden="true">7</span><span class="wf-sr">7</span></b><span class="wf-stat__label">한 향당 시향 개월</span></div></div>
       </div>
     </section>
-      <section class="wf__region" id="자주-쓰는-원료" data-enter="right" style="min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(36px, 6vw);background-color:rgba(240, 246, 255, 1)" data-fx="reveal" data-fx-preset="rise" data-fx-duration="700" data-fx-delay="0" data-fx-distance="18" data-fx-rotate="0" data-fx-scale="0.97" data-fx-threshold="0.15" data-fx-repeat="false">
+      <section class="wf__region" id="자주-쓰는-원료" data-enter="right" style="min-height:0px;border-radius:18px;border-width:0px;padding:min(36px, 6vw);background-color:rgba(240, 238, 233, 1)" data-fx="reveal" data-fx-preset="rise" data-fx-duration="700" data-fx-delay="0" data-fx-distance="18" data-fx-rotate="0" data-fx-scale="0.97" data-fx-threshold="0.15" data-fx-repeat="false">
       <div class="wf-sec" style="align-items:flex-start">
         <h2 class="wf-sec__title">자주 쓰는 원료</h2>
         
@@ -61,82 +63,105 @@
     </section>
     </div>
     <div class="wf" style="grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);grid-template-rows:1fr;gap:18px">
-    <section class="wf__region" id="올해의-여섯" data-enter="left" style="grid-column:1;grid-row:1;min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(36px, 6vw);background-color:rgba(240, 246, 255, 1)" data-fx="tilt reveal preview" data-fx-tilt-card-max-tilt="12" data-fx-tilt-card-perspective="900" data-fx-tilt-card-scale="1.02" data-fx-tilt-card-speed="12" data-fx-tilt-card-glare="true" data-fx-tilt-card-max-glare="0.35" data-fx-tilt-card-axis="both" data-fx-scroll-reveal-preset="rise" data-fx-scroll-reveal-duration="700" data-fx-scroll-reveal-delay="0" data-fx-scroll-reveal-distance="28" data-fx-scroll-reveal-rotate="22" data-fx-scroll-reveal-scale="0.92" data-fx-scroll-reveal-threshold="0.15" data-fx-scroll-reveal-repeat="false" data-fx-hover-preview-width="240" data-fx-hover-preview-speed="0.16" data-fx-hover-preview-offset-x="24" data-fx-hover-preview-offset-y="-20" data-fx-hover-preview-rotate="3">
-      <div class="wf-gal">
-        <h2 class="wf-sec__title">올해의 여섯</h2>
+    <section class="wf__region" id="올해-낸-향" data-enter="left" style="grid-column:1;grid-row:1;min-height:0px;border-radius:18px;border-width:0px;padding:min(36px, 6vw);background-color:rgba(240, 238, 233, 1)" data-fx="tilt reveal preview" data-fx-tilt-card-max-tilt="12" data-fx-tilt-card-perspective="900" data-fx-tilt-card-scale="1.02" data-fx-tilt-card-speed="12" data-fx-tilt-card-glare="true" data-fx-tilt-card-max-glare="0.35" data-fx-tilt-card-axis="both" data-fx-scroll-reveal-preset="rise" data-fx-scroll-reveal-duration="700" data-fx-scroll-reveal-delay="0" data-fx-scroll-reveal-distance="28" data-fx-scroll-reveal-rotate="22" data-fx-scroll-reveal-scale="0.92" data-fx-scroll-reveal-threshold="0.15" data-fx-scroll-reveal-repeat="false" data-fx-hover-preview-width="240" data-fx-hover-preview-speed="0.16" data-fx-hover-preview-offset-x="24" data-fx-hover-preview-offset-y="-20" data-fx-hover-preview-rotate="3">
+      <div class="wf-gal is-phone2">
+        <h2 class="wf-sec__title">올해 낸 향</h2>
+        <div class="wf-gal__filter" role="group" aria-label="태그별로 보기" hidden><button type="button" class="is-on" data-t="">전체</button><button type="button" data-t="덜 익은 청자두 껍질 향을 담았습니다.">덜 익은 청자두 껍질 향을 담았습니다.</button><button type="button" data-t="비 온 다음 날 소나무 줄기에서 나는 냄새.">비 온 다음 날 소나무 줄기에서 나는 냄새.</button><button type="button" data-t="종이와 먼지">종이와 먼지</button><button type="button" data-t="오래된 접착제 냄새.">오래된 접착제 냄새.</button><button type="button" data-t="여름 소나기 직후 도심 냄새.">여름 소나기 직후 도심 냄새.</button><button type="button" data-t="문 닫아 둔 창고를 오랜만에 열었을 때.">문 닫아 둔 창고를 오랜만에 열었을 때.</button><button type="button" data-t="눈이 오기 직전의 차고 건조한 공기.">눈이 오기 직전의 차고 건조한 공기.</button><button type="button" data-t="이른 자두를 3년 뒤에 다시 만든 버전.">이른 자두를 3년 뒤에 다시 만든 버전.</button><button type="button" data-t="쓰던 병을 가져오면 채워 드립니다.">쓰던 병을 가져오면 채워 드립니다.</button><button type="button" data-t="여섯 향을 다 맡아 보고 고르시라고 만들었습니다.">여섯 향을 다 맡아 보고 고르시라고 만들었습니다.</button></div>
+        <script>(function(b){b=document.currentScript.previousElementSibling;b.hidden=false;var g=b.parentNode;b.addEventListener('click',function(e){var t=e.target.closest('button');if(!t)return;[].forEach.call(b.children,function(x){x.classList.toggle('is-on',x===t);});var w=t.getAttribute('data-t');var m=g.querySelector('.wf-gal__more');if(w&&m)m.checked=true;[].forEach.call(g.querySelectorAll('.wf-gal__grid > [data-tags]'),function(c){c.classList.toggle('is-out',!!w&&('|'+c.getAttribute('data-tags')+'|').indexOf('|'+w+'|')<0);});});})();</script>
+        
         <div class="wf-gal__grid" style="grid-template-columns:repeat(2, minmax(0, 1fr))">
-          <a class="wf-card has-detail" href="#detail-c-1"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn1eza1x.webp" alt="01 · 이른 자두" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
+          <a data-tags="덜 익은 청자두 껍질 향을 담았습니다." class="wf-card has-detail" href="#detail-c-1"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn1eza1x.webp" alt="이른 자두" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">탑 청자두 · 미들 제라늄 · 베이스 화이트머스크</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">아직 덜 익은 자두를 그대로 옮기려 했습니다.</span></span>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">덜 익은 청자두 껍질 향을 담았습니다.</span></span>
               <span class="wf-card__desc">자두 과육을 쓰면 금방 달아지고 흐려집니다. 껍질만 써서 떫은 기를 남겼습니다.<br />시행착오: 초기 배합은 제라늄이 너무 세서 자두가 묻혔습니다. 제라늄을 절반으로 줄이고 나서야 순서가 잡혔습니다.<br />지속: 손목에서 5시간.</span>
               
+              
+              
             </span></a>
-          <a class="wf-card has-detail" href="#detail-c-2"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbnrpp026.webp" alt="02 · 송진과 비" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
+          <a data-tags="비 온 다음 날 소나무 줄기에서 나는 냄새." class="wf-card has-detail" href="#detail-c-2"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbnrpp026.webp" alt="송진과 비" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">탑 갈바넘 · 미들 파인니들 · 베이스 발삼</b>
               <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">비 온 다음 날 소나무 줄기에서 나는 냄새.</span></span>
               <span class="wf-card__desc">갈바넘은 온도에 예민해 여름 시제품과 겨울 시제품이 다르게 나왔습니다.<br />시행착오: 세 번 다시 잡았습니다. 마지막엔 발삼 비율을 계절별로 나눠 두 버전으로 냅니다.<br />지속: 손목에서 7시간.</span>
               
+              
+              
             </span></a>
-          <a class="wf-card has-detail" href="#detail-c-3"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn1vwy1z.webp" alt="03 · 헌 책방" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span></span><span class="wf-card__body">
+          <a data-tags="종이와 먼지|오래된 접착제 냄새." class="wf-card has-detail" href="#detail-c-3"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn1vwy1z.webp" alt="헌책방" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">탑 베르가못 · 미들 아이리스 · 베이스 파피루스</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">종이와 먼지</span><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">그리고 오래된 접착제.</span></span>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">종이와 먼지</span><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">오래된 접착제 냄새.</span></span>
               <span class="wf-card__desc">먼지 냄새를 흉내 내려고 처음엔 흙 계열을 썼는데 축축해졌습니다. 마른 쪽으로 방향을 바꿨습니다.<br />시행착오: 아이리스 농도를 0.5%씩 다섯 번 바꿔 가며 시향했습니다.<br />지속: 손목에서 6시간.</span>
               
+              
+              
             </span></a>
-          <a class="wf-card has-detail" href="#detail-c-4"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn20qv20.webp" alt="04 · 젖은 콘크리트" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span></span><span class="wf-card__body">
+          <a data-tags="여름 소나기 직후 도심 냄새." class="wf-card has-detail" href="#detail-c-4"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn20qv20.webp" alt="젖은 콘크리트" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">탑 알데하이드 · 미들 시더 · 베이스 베티버</b>
               <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">여름 소나기 직후 도심 냄새.</span></span>
               <span class="wf-card__desc">알데하이드를 조금만 넘겨도 비누 냄새가 됩니다. 0.3% 단위로 조정했습니다.<br />시행착오: 첫 배치는 전부 버렸습니다. 비누 같다는 평이 여섯 명 중 다섯이었습니다.<br />지속: 손목에서 4시간.</span>
               
+              
+              
             </span></a>
-          <a class="wf-card has-detail" href="#detail-c-5"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn2t8f22.webp" alt="05 · 늦가을 창고" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span></span><span class="wf-card__body">
+          <a data-tags="문 닫아 둔 창고를 오랜만에 열었을 때." class="wf-card has-detail" href="#detail-c-5"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn2t8f22.webp" alt="늦가을 창고" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">탑 정향 · 미들 마른 잎 · 베이스 통카빈</b>
               <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">문 닫아 둔 창고를 오랜만에 열었을 때.</span></span>
               <span class="wf-card__desc">정향은 강해서 앞에 두면 다른 게 안 보입니다. 아주 적게 쓰고 통카빈으로 받쳤습니다.<br />시행착오: 마른 잎 노트를 직접 만들려다 실패해 결국 기성 아코드를 썼습니다.<br />지속: 손목에서 8시간.</span>
               
+              
+              
             </span></a>
-          <a class="wf-card has-detail" href="#detail-c-6"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn2gxi21.webp" alt="06 · 첫눈 오기 전" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#6b7280;--st-fg:#ffffff">보류</span></span><span class="wf-card__body">
+          <a data-tags="눈이 오기 직전의 차고 건조한 공기." class="wf-card has-detail" href="#detail-c-6"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbn2gxi21.webp" alt="첫눈 오기 전" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#6b7280;--st-fg:#ffffff">보류</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">탑 알데하이드 · 미들 아이리스 · 베이스 머스크</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">눈이 오기 직전 공기가 멈춘 느낌.</span></span>
-              <span class="wf-card__desc">차가운 느낌은 향료가 아니라 여백에서 나옵니다. 재료를 계속 뺐습니다.<br />시행착오: 아홉 개로 시작해 다섯 개까지 줄였습니다. 뺄수록 좋아졌습니다.<br />지속: 손목에서 5시간.</span>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">눈이 오기 직전의 차고 건조한 공기.</span></span>
+              <span class="wf-card__desc">차가운 느낌을 내려고 재료 수를 계속 줄였습니다.<br />시행착오: 아홉 가지로 시작해 다섯 가지까지 줄였습니다.<br />지속: 손목에서 5시간.</span>
+              
+              
               
             </span></a>
-          <a class="wf-card has-detail" href="#detail-c-7"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwykiwt.webp" alt="07 · 늦여름 자두" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
+          <a data-tags="이른 자두를 3년 뒤에 다시 만든 버전." class="wf-card has-detail" href="#detail-c-7"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwykiwt.webp" alt="늦여름 자두" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">탑 자두 껍질 · 미들 제라늄 · 베이스 오크모스</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">01번을 3년 뒤에 다시 잡은 버전.</span></span>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">이른 자두를 3년 뒤에 다시 만든 버전.</span></span>
               <span class="wf-card__desc">같은 원료인데 산지가 바뀌어 그대로 쓸 수 없었습니다. 비율을 처음부터 다시 짰습니다.<br />시행착오: 옛 배합서를 그대로 따랐다가 두 배치를 버렸습니다. 원료는 해마다 다릅니다.<br />지속: 손목에서 6시간.</span>
               
+              
+              
             </span></a>
-          <a class="wf-card has-detail" href="#detail-c-8"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwz3kgv.webp" alt="08 · 빈 병 리필" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
+          <a data-tags="쓰던 병을 가져오면 채워 드립니다." class="wf-card has-detail" href="#detail-c-8"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwz3kgv.webp" alt="빈 병 리필" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">유리 100ml · 알루미늄 마개</b>
               <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">쓰던 병을 가져오면 채워 드립니다.</span></span>
               <span class="wf-card__desc">병값을 빼 드리고 라벨도 다시 붙여 드립니다. 세척은 저희가 합니다.<br />시행착오: 처음엔 아무 병이나 받았는데 향이 섞여 실패했습니다. 지금은 저희 병만 받습니다.<br />조건: 같은 향으로만 리필 가능합니다.</span>
               
+              
+              
             </span></a>
-          <a class="wf-card has-detail" href="#detail-c-9"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwz849w.webp" alt="09 · 시향 세트" loading="lazy" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
+          <a data-tags="여섯 향을 다 맡아 보고 고르시라고 만들었습니다." class="wf-card has-detail" href="#detail-c-9"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmsbwz849w.webp" alt="시향 세트" loading="lazy" decoding="async" style="object-fit:cover" /><span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span></span><span class="wf-card__body">
               
               <b class="wf-card__title">2ml × 6종 · 우편 발송</b>
               <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">여섯 향을 다 맡아 보고 고르시라고 만들었습니다.</span></span>
               <span class="wf-card__desc">세트 가격은 나중에 본품을 사시면 그대로 빼 드립니다.<br />시행착오: 처음엔 1ml로 보냈는데 하루를 지켜보기에 모자랐습니다. 2ml로 늘렸습니다.<br />발송: 주 2회, 화·금.</span>
               
+              
+              
             </span></a>
         </div>
+        
         <div class="wf-detail" id="detail-c-1">
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbn1eza1x.webp" alt="01 · 이른 자두" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbn1eza1x.webp" alt="이른 자두" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">탑 청자두 · 미들 제라늄 · 베이스 화이트머스크</b>
-              <span class="wf-card__stack">아직 덜 익은 자두를 그대로 옮기려 했습니다.</span>
-              <p class="wf-detail__body">8월에 딴 청자두를 그대로 옮기려다 세 번 실패했습니다. 결국 과육이 아니라 껍질의 떫은맛을 기준으로 잡았습니다. 30ml · 180병.</p>
+              <span class="wf-card__stack">덜 익은 청자두 껍질 향을 담았습니다.</span>
+              <p class="wf-detail__body">8월에 딴 청자두 향을 그대로 내려다 세 번 실패했습니다. 그래서 과육 대신 껍질의 떫은맛을 기준으로 정했습니다. 30ml · 180병.</p>
+              
               
             </div>
           </div>
@@ -144,10 +169,11 @@
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbnrpp026.webp" alt="02 · 송진과 비" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbnrpp026.webp" alt="송진과 비" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">탑 갈바넘 · 미들 파인니들 · 베이스 발삼</b>
               <span class="wf-card__stack">비 온 다음 날 소나무 줄기에서 나는 냄새.</span>
               <p class="wf-detail__body">송진 노트는 자칫 세제 냄새가 됩니다. 갈바넘을 0.4%까지만 쓰고 나머지는 흙 냄새로 눌렀습니다. 30ml · 150병.</p>
+              
               
             </div>
           </div>
@@ -155,10 +181,11 @@
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbn1vwy1z.webp" alt="03 · 헌 책방" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbn1vwy1z.webp" alt="헌책방" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">탑 베르가못 · 미들 아이리스 · 베이스 파피루스</b>
-              <span class="wf-card__stack">종이와 먼지, 그리고 오래된 접착제.</span>
+              <span class="wf-card__stack">종이와 먼지, 오래된 접착제 냄새.</span>
               <p class="wf-detail__body">실제 헌책 열 권을 밀폐 용기에 두고 한 달간 향을 포집해 분석했습니다. 30ml · 200병.</p>
+              
               
             </div>
           </div>
@@ -166,10 +193,11 @@
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbn20qv20.webp" alt="04 · 젖은 콘크리트" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbn20qv20.webp" alt="젖은 콘크리트" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">탑 알데하이드 · 미들 시더 · 베이스 베티버</b>
               <span class="wf-card__stack">여름 소나기 직후 도심 냄새.</span>
               <p class="wf-detail__body">페트리코 어코드를 직접 조합했습니다. 흙보다 돌에 가깝게 맞추는 데 넉 달 걸렸습니다. 30ml · 160병.</p>
+              
               
             </div>
           </div>
@@ -177,10 +205,11 @@
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbn2t8f22.webp" alt="05 · 늦가을 창고" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbn2t8f22.webp" alt="늦가을 창고" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">탑 정향 · 미들 마른 잎 · 베이스 통카빈</b>
               <span class="wf-card__stack">문 닫아 둔 창고를 오랜만에 열었을 때.</span>
               <p class="wf-detail__body">계피를 넣으면 즉시 크리스마스가 되어 버려서, 정향만 미량 남겼습니다. 30ml · 140병.</p>
+              
               
             </div>
           </div>
@@ -188,10 +217,11 @@
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbn2gxi21.webp" alt="06 · 첫눈 오기 전" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbn2gxi21.webp" alt="첫눈 오기 전" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">탑 알데하이드 · 미들 아이리스 · 베이스 머스크</b>
-              <span class="wf-card__stack">눈이 오기 직전 공기가 멈춘 느낌.</span>
-              <p class="wf-detail__body">향이 거의 나지 않는 것이 목표였습니다. 여섯 번 농도를 낮췄습니다. 30ml · 120병.</p>
+              <span class="wf-card__stack">눈이 오기 직전의 차고 건조한 공기.</span>
+              <p class="wf-detail__body">아주 옅은 향으로 만들려고 농도를 여섯 번 낮췄습니다. 30ml · 120병.</p>
+              
               
             </div>
           </div>
@@ -199,10 +229,11 @@
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbwykiwt.webp" alt="07 · 늦여름 자두" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbwykiwt.webp" alt="늦여름 자두" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">탑 자두 껍질 · 미들 제라늄 · 베이스 오크모스</b>
-              <span class="wf-card__stack">01번을 3년 뒤에 다시 잡은 버전.</span>
-              <p class="wf-detail__body">과육이 아니라 껍질에서만 추출했습니다. 단맛이 빠지고 떫은 기가 남습니다.</p>
+              <span class="wf-card__stack">이른 자두를 3년 뒤에 다시 만든 버전.</span>
+              <p class="wf-detail__body">껍질에서만 추출해 단맛은 적고 떫은맛이 남습니다.</p>
+              
               
             </div>
           </div>
@@ -210,10 +241,11 @@
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbwz3kgv.webp" alt="08 · 빈 병 리필" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbwz3kgv.webp" alt="빈 병 리필" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">유리 100ml · 알루미늄 마개</b>
               <span class="wf-card__stack">쓰던 병을 가져오면 채워 드립니다.</span>
               <p class="wf-detail__body">송진은 온도에 예민해 배합을 세 번 다시 잡았습니다.</p>
+              
               
             </div>
           </div>
@@ -221,16 +253,17 @@
             <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
             <div class="wf-detail__box">
               <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              <img class="wf-detail__img" src="./assets/images/imgmsbwz849w.webp" alt="09 · 시향 세트" loading="lazy" style="object-fit:cover" />
+              <img class="wf-detail__img" src="./assets/images/imgmsbwz849w.webp" alt="시향 세트" loading="lazy" decoding="async" style="object-fit:cover" />
               <b class="wf-detail__title">2ml × 6종 · 우편 발송</b>
               <span class="wf-card__stack">여섯 향을 다 맡아 보고 고르시라고 만들었습니다.</span>
               <p class="wf-detail__body">병값만큼 빼 드립니다. 라벨은 다시 붙여 드립니다.</p>
+              
               
             </div>
           </div>
       </div>
     </section>
-    <section class="wf__region wf-tfx wf-tfx--blur wf-tfx-on--title" id="만드는-방식" data-enter="right" style="grid-column:2;grid-row:1;min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(36px, 6vw);background-color:rgba(240, 246, 255, 1);--tfx-step:40ms;--tfx-delay:0ms">
+    <section class="wf__region wf-tfx wf-tfx--blur wf-tfx-on--title" id="만드는-방식" data-enter="right" style="grid-column:2;grid-row:1;min-height:0px;border-radius:18px;border-width:0px;padding:min(36px, 6vw);background-color:rgba(240, 238, 233, 1);--tfx-step:40ms;--tfx-delay:0ms">
       <div class="wf-sec" style="align-items:flex-start">
         <h2 class="wf-sec__title">만드는 방식</h2>
         <div class="wf-sec__cols" style="grid-template-columns:repeat(1, minmax(0, 1fr))">
@@ -241,30 +274,25 @@
     </section>
     </div>
     <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:18px">
-      <div class="wf__region" data-enter="up" style="min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(0px, 6vw);background-color:rgba(240, 246, 255, 1)">
-      <div class="wf-3d fx-model" style="height:min(500px, 62vh)" data-fx-src="./assets/files/brass_vase.glb" data-fx-environment-image="./assets/images/imgmsbn48f924.hdr" data-fx-alt="리필용 황동 병 — 드래그해서 돌려 보세요" data-fx-camera-controls="true" data-fx-auto-rotate="true" data-fx-disable-zoom="true" data-fx-disable-pan="true" data-fx-exposure="1.15" data-fx-shadow-intensity="0.75" data-fx-shadow-softness="1" data-fx-auto-rotate-delay="3000" data-fx-rotation-per-second="18deg" data-fx-autoplay="true" data-fx-interaction-prompt="auto" data-fx-ar="false" data-fx-skybox="false" data-fx-follow="false" data-fx-follow-decay="80" data-fx-follow-yaw="28" data-fx-follow-pitch="10"></div>
+      <div class="wf__region" data-enter="up" style="min-height:0px;border-radius:18px;border-width:0px;padding:min(0px, 6vw);background-color:rgba(240, 238, 233, 1)">
+      <div class="wf-3d fx-model" style="height:min(500px, 62vh)" data-fx-src="./assets/files/brass_vase.glb" data-fx-environment-image="./assets/images/imgmsbn48f924.hdr" data-fx-alt="리필용 황동 병입니다. 끌어서 돌려 볼 수 있습니다." data-fx-camera-controls="true" data-fx-auto-rotate="true" data-fx-disable-zoom="true" data-fx-disable-pan="true" data-fx-exposure="1.15" data-fx-shadow-intensity="0.75" data-fx-shadow-softness="1" data-fx-auto-rotate-delay="3000" data-fx-rotation-per-second="18deg" data-fx-autoplay="true" data-fx-interaction-prompt="auto" data-fx-ar="false" data-fx-skybox="false" data-fx-follow="false" data-fx-follow-decay="80" data-fx-follow-yaw="28" data-fx-follow-pitch="10"></div>
     </div>
     </div>
     <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:18px">
-      <section class="wf__region" data-enter="up" style="min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(0px, 6vw);background-color:rgba(240, 246, 255, 1)">
-      <div class="wf-mq is-pausable" style="--mq-t:36s;--mq-size:2.2em;--mq-dir:reverse">
-        <div class="wf-mq__track">
-          <span class="wf-mq__set"><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i></span>
-          <span class="wf-mq__set" aria-hidden="true"><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span><i class="wf-mq__sep">·</i></span>
-        </div>
-      </div>
+      <section class="wf__region" data-enter="up" style="min-height:0px;border-radius:18px;border-width:0px;padding:min(0px, 6vw);background-color:rgba(240, 238, 233, 1)">
+      <div class="wf-mq is-still" style="--mq-size:2.2em" role="note"><span class="wf-mq__txt">자두 껍질 · 송진 · 갈바넘 · 제라늄 · 발삼 · 시더우드</span></div>
     </section>
     </div>
     <div class="wf wf--row" style="grid-template-columns:repeat(2, minmax(0, 1fr));gap:18px">
-      <section class="wf__region" data-enter="left" style="min-height:260px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(44px, 6vw);background-color:rgba(240, 246, 255, 1)">
+      <section class="wf__region" data-enter="left" style="min-height:260px;border-radius:18px;border-width:0px;padding:min(44px, 6vw);background-color:rgba(240, 238, 233, 1)">
       <div class="wf-cta is-grad" style="align-items:center;text-align:center">
-        <b class="wf-cta__title">올해의 여섯이 남아 있는 동안</b>
-        <span class="wf-cta__sub">다 팔리면 그 향은 그해로 끝납니다. 시향 신청은 상시 받습니다.</span>
+        <b class="wf-cta__title">올해 향 구매</b>
+        <span class="wf-cta__sub">다 팔린 향은 다시 만들지 않습니다. 시향 신청은 언제든 받습니다.</span>
         <a class="wf-btn wf-cta__btn" style="border-radius:10px;font-size:1.073em;padding:0.79em 1.71em" href="#contact">시향 신청</a>
       </div>
     </section>
-      <section class="wf__region" data-enter="right" style="min-height:260px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(0px, 6vw);background-color:rgba(240, 246, 255, 1)" data-fx="tilt" data-fx-max-tilt="8" data-fx-perspective="900" data-fx-scale="1.02" data-fx-speed="400" data-fx-glare="true" data-fx-max-glare="0.18" data-fx-axis="both">
-      <div class="wf-bcard wf-bcard--formal wf-bcard--ico-line is-2face" style="--bc-paper:0.5;max-width:460px">
+      <section class="wf__region" data-enter="right" style="min-height:260px;border-radius:18px;border-width:0px;padding:min(0px, 6vw);background-color:rgba(240, 238, 233, 1)" data-fx="tilt" data-fx-max-tilt="8" data-fx-perspective="900" data-fx-scale="1.02" data-fx-speed="400" data-fx-glare="true" data-fx-max-glare="0.18" data-fx-axis="both">
+      <div class="wf-bcardbox" style="max-width:460px"><div class="wf-bcard wf-bcard--formal wf-bcard--ico-line is-2face" style="--bc-paper:0.5;max-width:460px">
         <input class="wf-bcard__toggle" type="checkbox" id="bcflip-x2-2" aria-label="명함 뒤집기">
         <div class="wf-bcard__flip">
           <div class="wf-bcard__face wf-bcard__face--front">
@@ -272,6 +300,7 @@
             <span class="wf-bcard__paper" aria-hidden="true"></span>
             <div class="wf-bcard__in">
         <span class="wf-bcard__label">자두와 송진</span>
+        <span class="wf-bcard__org">Plum</span>
         <span class="wf-bcard__mono">자송</span>
         <div class="wf-bcard__lead">
           <b class="wf-bcard__role">Plum</b>
@@ -282,8 +311,7 @@
             <span class="wf-bcard__text">
               <b class="wf-bcard__name">자두와 송진</b>
               <span class="wf-bcard__nameen">Plum &amp; Pitch</span>
-              <span class="wf-bcard__title">조향 · 향수 스튜디오</span>
-              
+              <span class="wf-bcard__title wf-bcard__titles"><span class="wf-bcard__tpart">조향 · 향수 스튜디오</span></span>
             </span>
             <span class="wf-bcard__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-5 0-9 2.5-9 5.5V22h18v-2.5c0-3-4-5.5-9-5.5z" fill="currentColor"/></svg></span>
           </div>
@@ -295,122 +323,36 @@
         </div>
           </div>
           <div class="wf-bcard__face wf-bcard__face--back"><span class="wf-bcard__paper" aria-hidden="true"></span><div class="wf-bcard__in wf-bcard__in--back">
-        <p class="wf-bcard__tagline">냄새는 기억보다 먼저 도착합니다.</p>
+        <p class="wf-bcard__tagline">자두와 송진에서 시작한 향을 만듭니다.</p>
         <div class="wf-bcard__info"></div>
         <span class="wf-bcard__stack">조향 · 소량 생산 · 우편 발송</span>
         <div class="wf-bcard__side"><span class="wf-bcard__qr"><svg class="wf-qr" viewBox="0 0 45 45" role="img" aria-label="연락처 QR 코드" shape-rendering="crispEdges"><path d="M2,2h1v1h-1zM3,2h1v1h-1zM4,2h1v1h-1zM5,2h1v1h-1zM6,2h1v1h-1zM7,2h1v1h-1zM8,2h1v1h-1zM14,2h1v1h-1zM16,2h1v1h-1zM19,2h1v1h-1zM20,2h1v1h-1zM24,2h1v1h-1zM26,2h1v1h-1zM27,2h1v1h-1zM33,2h1v1h-1zM36,2h1v1h-1zM37,2h1v1h-1zM38,2h1v1h-1zM39,2h1v1h-1zM40,2h1v1h-1zM41,2h1v1h-1zM42,2h1v1h-1zM2,3h1v1h-1zM8,3h1v1h-1zM10,3h1v1h-1zM11,3h1v1h-1zM12,3h1v1h-1zM14,3h1v1h-1zM15,3h1v1h-1zM16,3h1v1h-1zM17,3h1v1h-1zM20,3h1v1h-1zM21,3h1v1h-1zM24,3h1v1h-1zM25,3h1v1h-1zM29,3h1v1h-1zM31,3h1v1h-1zM32,3h1v1h-1zM33,3h1v1h-1zM36,3h1v1h-1zM42,3h1v1h-1zM2,4h1v1h-1zM4,4h1v1h-1zM5,4h1v1h-1zM6,4h1v1h-1zM8,4h1v1h-1zM12,4h1v1h-1zM13,4h1v1h-1zM14,4h1v1h-1zM15,4h1v1h-1zM19,4h1v1h-1zM20,4h1v1h-1zM24,4h1v1h-1zM26,4h1v1h-1zM28,4h1v1h-1zM30,4h1v1h-1zM31,4h1v1h-1zM32,4h1v1h-1zM36,4h1v1h-1zM38,4h1v1h-1zM39,4h1v1h-1zM40,4h1v1h-1zM42,4h1v1h-1zM2,5h1v1h-1zM4,5h1v1h-1zM5,5h1v1h-1zM6,5h1v1h-1zM8,5h1v1h-1zM12,5h1v1h-1zM13,5h1v1h-1zM16,5h1v1h-1zM17,5h1v1h-1zM18,5h1v1h-1zM19,5h1v1h-1zM20,5h1v1h-1zM21,5h1v1h-1zM23,5h1v1h-1zM24,5h1v1h-1zM27,5h1v1h-1zM28,5h1v1h-1zM29,5h1v1h-1zM31,5h1v1h-1zM34,5h1v1h-1zM36,5h1v1h-1zM38,5h1v1h-1zM39,5h1v1h-1zM40,5h1v1h-1zM42,5h1v1h-1zM2,6h1v1h-1zM4,6h1v1h-1zM5,6h1v1h-1zM6,6h1v1h-1zM8,6h1v1h-1zM10,6h1v1h-1zM14,6h1v1h-1zM16,6h1v1h-1zM20,6h1v1h-1zM22,6h1v1h-1zM23,6h1v1h-1zM24,6h1v1h-1zM28,6h1v1h-1zM33,6h1v1h-1zM34,6h1v1h-1zM36,6h1v1h-1zM38,6h1v1h-1zM39,6h1v1h-1zM40,6h1v1h-1zM42,6h1v1h-1zM2,7h1v1h-1zM8,7h1v1h-1zM11,7h1v1h-1zM13,7h1v1h-1zM15,7h1v1h-1zM18,7h1v1h-1zM19,7h1v1h-1zM21,7h1v1h-1zM22,7h1v1h-1zM24,7h1v1h-1zM25,7h1v1h-1zM28,7h1v1h-1zM29,7h1v1h-1zM31,7h1v1h-1zM33,7h1v1h-1zM34,7h1v1h-1zM36,7h1v1h-1zM42,7h1v1h-1zM2,8h1v1h-1zM3,8h1v1h-1zM4,8h1v1h-1zM5,8h1v1h-1zM6,8h1v1h-1zM7,8h1v1h-1zM8,8h1v1h-1zM10,8h1v1h-1zM12,8h1v1h-1zM14,8h1v1h-1zM16,8h1v1h-1zM18,8h1v1h-1zM20,8h1v1h-1zM22,8h1v1h-1zM24,8h1v1h-1zM26,8h1v1h-1zM28,8h1v1h-1zM30,8h1v1h-1zM32,8h1v1h-1zM34,8h1v1h-1zM36,8h1v1h-1zM37,8h1v1h-1zM38,8h1v1h-1zM39,8h1v1h-1zM40,8h1v1h-1zM41,8h1v1h-1zM42,8h1v1h-1zM13,9h1v1h-1zM14,9h1v1h-1zM16,9h1v1h-1zM17,9h1v1h-1zM19,9h1v1h-1zM21,9h1v1h-1zM22,9h1v1h-1zM23,9h1v1h-1zM24,9h1v1h-1zM25,9h1v1h-1zM27,9h1v1h-1zM31,9h1v1h-1zM32,9h1v1h-1zM2,10h1v1h-1zM4,10h1v1h-1zM6,10h1v1h-1zM8,10h1v1h-1zM11,10h1v1h-1zM12,10h1v1h-1zM14,10h1v1h-1zM15,10h1v1h-1zM17,10h1v1h-1zM18,10h1v1h-1zM20,10h1v1h-1zM21,10h1v1h-1zM26,10h1v1h-1zM29,10h1v1h-1zM33,10h1v1h-1zM34,10h1v1h-1zM38,10h1v1h-1zM41,10h1v1h-1zM2,11h1v1h-1zM5,11h1v1h-1zM6,11h1v1h-1zM9,11h1v1h-1zM10,11h1v1h-1zM11,11h1v1h-1zM14,11h1v1h-1zM15,11h1v1h-1zM17,11h1v1h-1zM23,11h1v1h-1zM25,11h1v1h-1zM26,11h1v1h-1zM27,11h1v1h-1zM29,11h1v1h-1zM30,11h1v1h-1zM32,11h1v1h-1zM33,11h1v1h-1zM34,11h1v1h-1zM35,11h1v1h-1zM39,11h1v1h-1zM41,11h1v1h-1zM42,11h1v1h-1zM2,12h1v1h-1zM4,12h1v1h-1zM8,12h1v1h-1zM10,12h1v1h-1zM12,12h1v1h-1zM18,12h1v1h-1zM19,12h1v1h-1zM20,12h1v1h-1zM22,12h1v1h-1zM24,12h1v1h-1zM27,12h1v1h-1zM30,12h1v1h-1zM31,12h1v1h-1zM32,12h1v1h-1zM36,12h1v1h-1zM37,12h1v1h-1zM38,12h1v1h-1zM2,13h1v1h-1zM3,13h1v1h-1zM4,13h1v1h-1zM9,13h1v1h-1zM10,13h1v1h-1zM12,13h1v1h-1zM13,13h1v1h-1zM17,13h1v1h-1zM18,13h1v1h-1zM19,13h1v1h-1zM22,13h1v1h-1zM23,13h1v1h-1zM25,13h1v1h-1zM27,13h1v1h-1zM31,13h1v1h-1zM32,13h1v1h-1zM35,13h1v1h-1zM38,13h1v1h-1zM41,13h1v1h-1zM2,14h1v1h-1zM3,14h1v1h-1zM4,14h1v1h-1zM5,14h1v1h-1zM7,14h1v1h-1zM8,14h1v1h-1zM10,14h1v1h-1zM11,14h1v1h-1zM13,14h1v1h-1zM14,14h1v1h-1zM15,14h1v1h-1zM16,14h1v1h-1zM17,14h1v1h-1zM21,14h1v1h-1zM22,14h1v1h-1zM23,14h1v1h-1zM24,14h1v1h-1zM25,14h1v1h-1zM29,14h1v1h-1zM30,14h1v1h-1zM31,14h1v1h-1zM32,14h1v1h-1zM34,14h1v1h-1zM40,14h1v1h-1zM42,14h1v1h-1zM2,15h1v1h-1zM3,15h1v1h-1zM10,15h1v1h-1zM11,15h1v1h-1zM12,15h1v1h-1zM13,15h1v1h-1zM14,15h1v1h-1zM16,15h1v1h-1zM21,15h1v1h-1zM25,15h1v1h-1zM26,15h1v1h-1zM27,15h1v1h-1zM29,15h1v1h-1zM31,15h1v1h-1zM32,15h1v1h-1zM35,15h1v1h-1zM36,15h1v1h-1zM37,15h1v1h-1zM39,15h1v1h-1zM40,15h1v1h-1zM41,15h1v1h-1zM2,16h1v1h-1zM3,16h1v1h-1zM8,16h1v1h-1zM9,16h1v1h-1zM12,16h1v1h-1zM13,16h1v1h-1zM15,16h1v1h-1zM16,16h1v1h-1zM17,16h1v1h-1zM22,16h1v1h-1zM26,16h1v1h-1zM28,16h1v1h-1zM33,16h1v1h-1zM34,16h1v1h-1zM35,16h1v1h-1zM38,16h1v1h-1zM41,16h1v1h-1zM42,16h1v1h-1zM2,17h1v1h-1zM9,17h1v1h-1zM11,17h1v1h-1zM12,17h1v1h-1zM15,17h1v1h-1zM16,17h1v1h-1zM19,17h1v1h-1zM21,17h1v1h-1zM22,17h1v1h-1zM23,17h1v1h-1zM24,17h1v1h-1zM27,17h1v1h-1zM29,17h1v1h-1zM30,17h1v1h-1zM31,17h1v1h-1zM32,17h1v1h-1zM33,17h1v1h-1zM35,17h1v1h-1zM36,17h1v1h-1zM37,17h1v1h-1zM39,17h1v1h-1zM40,17h1v1h-1zM42,17h1v1h-1zM6,18h1v1h-1zM7,18h1v1h-1zM8,18h1v1h-1zM9,18h1v1h-1zM15,18h1v1h-1zM16,18h1v1h-1zM17,18h1v1h-1zM24,18h1v1h-1zM25,18h1v1h-1zM26,18h1v1h-1zM27,18h1v1h-1zM29,18h1v1h-1zM30,18h1v1h-1zM31,18h1v1h-1zM34,18h1v1h-1zM36,18h1v1h-1zM38,18h1v1h-1zM39,18h1v1h-1zM40,18h1v1h-1zM42,18h1v1h-1zM3,19h1v1h-1zM4,19h1v1h-1zM5,19h1v1h-1zM6,19h1v1h-1zM10,19h1v1h-1zM11,19h1v1h-1zM12,19h1v1h-1zM19,19h1v1h-1zM21,19h1v1h-1zM22,19h1v1h-1zM23,19h1v1h-1zM26,19h1v1h-1zM27,19h1v1h-1zM34,19h1v1h-1zM36,19h1v1h-1zM39,19h1v1h-1zM40,19h1v1h-1zM42,19h1v1h-1zM4,20h1v1h-1zM5,20h1v1h-1zM6,20h1v1h-1zM8,20h1v1h-1zM9,20h1v1h-1zM13,20h1v1h-1zM17,20h1v1h-1zM18,20h1v1h-1zM20,20h1v1h-1zM23,20h1v1h-1zM24,20h1v1h-1zM30,20h1v1h-1zM34,20h1v1h-1zM36,20h1v1h-1zM37,20h1v1h-1zM38,20h1v1h-1zM39,20h1v1h-1zM42,20h1v1h-1zM2,21h1v1h-1zM4,21h1v1h-1zM6,21h1v1h-1zM7,21h1v1h-1zM9,21h1v1h-1zM10,21h1v1h-1zM12,21h1v1h-1zM13,21h1v1h-1zM14,21h1v1h-1zM18,21h1v1h-1zM19,21h1v1h-1zM20,21h1v1h-1zM21,21h1v1h-1zM23,21h1v1h-1zM24,21h1v1h-1zM27,21h1v1h-1zM28,21h1v1h-1zM30,21h1v1h-1zM31,21h1v1h-1zM33,21h1v1h-1zM35,21h1v1h-1zM37,21h1v1h-1zM38,21h1v1h-1zM41,21h1v1h-1zM42,21h1v1h-1zM2,22h1v1h-1zM5,22h1v1h-1zM6,22h1v1h-1zM7,22h1v1h-1zM8,22h1v1h-1zM10,22h1v1h-1zM11,22h1v1h-1zM12,22h1v1h-1zM13,22h1v1h-1zM14,22h1v1h-1zM15,22h1v1h-1zM17,22h1v1h-1zM20,22h1v1h-1zM21,22h1v1h-1zM22,22h1v1h-1zM30,22h1v1h-1zM32,22h1v1h-1zM40,22h1v1h-1zM41,22h1v1h-1zM2,23h1v1h-1zM4,23h1v1h-1zM7,23h1v1h-1zM10,23h1v1h-1zM11,23h1v1h-1zM13,23h1v1h-1zM15,23h1v1h-1zM16,23h1v1h-1zM18,23h1v1h-1zM20,23h1v1h-1zM21,23h1v1h-1zM25,23h1v1h-1zM26,23h1v1h-1zM27,23h1v1h-1zM29,23h1v1h-1zM31,23h1v1h-1zM32,23h1v1h-1zM35,23h1v1h-1zM36,23h1v1h-1zM37,23h1v1h-1zM41,23h1v1h-1zM3,24h1v1h-1zM4,24h1v1h-1zM6,24h1v1h-1zM7,24h1v1h-1zM8,24h1v1h-1zM11,24h1v1h-1zM13,24h1v1h-1zM16,24h1v1h-1zM17,24h1v1h-1zM22,24h1v1h-1zM23,24h1v1h-1zM26,24h1v1h-1zM31,24h1v1h-1zM32,24h1v1h-1zM34,24h1v1h-1zM35,24h1v1h-1zM36,24h1v1h-1zM37,24h1v1h-1zM39,24h1v1h-1zM40,24h1v1h-1zM41,24h1v1h-1zM42,24h1v1h-1zM4,25h1v1h-1zM5,25h1v1h-1zM7,25h1v1h-1zM11,25h1v1h-1zM12,25h1v1h-1zM13,25h1v1h-1zM14,25h1v1h-1zM19,25h1v1h-1zM20,25h1v1h-1zM21,25h1v1h-1zM22,25h1v1h-1zM23,25h1v1h-1zM25,25h1v1h-1zM27,25h1v1h-1zM28,25h1v1h-1zM29,25h1v1h-1zM30,25h1v1h-1zM31,25h1v1h-1zM33,25h1v1h-1zM34,25h1v1h-1zM39,25h1v1h-1zM42,25h1v1h-1zM3,26h1v1h-1zM5,26h1v1h-1zM6,26h1v1h-1zM8,26h1v1h-1zM10,26h1v1h-1zM13,26h1v1h-1zM14,26h1v1h-1zM15,26h1v1h-1zM20,26h1v1h-1zM22,26h1v1h-1zM23,26h1v1h-1zM24,26h1v1h-1zM26,26h1v1h-1zM29,26h1v1h-1zM30,26h1v1h-1zM34,26h1v1h-1zM36,26h1v1h-1zM38,26h1v1h-1zM41,26h1v1h-1zM42,26h1v1h-1zM2,27h1v1h-1zM4,27h1v1h-1zM5,27h1v1h-1zM6,27h1v1h-1zM7,27h1v1h-1zM9,27h1v1h-1zM10,27h1v1h-1zM12,27h1v1h-1zM13,27h1v1h-1zM16,27h1v1h-1zM18,27h1v1h-1zM23,27h1v1h-1zM24,27h1v1h-1zM25,27h1v1h-1zM26,27h1v1h-1zM28,27h1v1h-1zM29,27h1v1h-1zM33,27h1v1h-1zM34,27h1v1h-1zM36,27h1v1h-1zM42,27h1v1h-1zM3,28h1v1h-1zM5,28h1v1h-1zM8,28h1v1h-1zM11,28h1v1h-1zM13,28h1v1h-1zM15,28h1v1h-1zM18,28h1v1h-1zM19,28h1v1h-1zM24,28h1v1h-1zM27,28h1v1h-1zM31,28h1v1h-1zM32,28h1v1h-1zM34,28h1v1h-1zM35,28h1v1h-1zM36,28h1v1h-1zM37,28h1v1h-1zM38,28h1v1h-1zM39,28h1v1h-1zM40,28h1v1h-1zM41,28h1v1h-1zM42,28h1v1h-1zM3,29h1v1h-1zM4,29h1v1h-1zM6,29h1v1h-1zM10,29h1v1h-1zM12,29h1v1h-1zM14,29h1v1h-1zM17,29h1v1h-1zM18,29h1v1h-1zM19,29h1v1h-1zM27,29h1v1h-1zM29,29h1v1h-1zM30,29h1v1h-1zM31,29h1v1h-1zM32,29h1v1h-1zM34,29h1v1h-1zM37,29h1v1h-1zM41,29h1v1h-1zM42,29h1v1h-1zM3,30h1v1h-1zM4,30h1v1h-1zM5,30h1v1h-1zM6,30h1v1h-1zM7,30h1v1h-1zM8,30h1v1h-1zM9,30h1v1h-1zM10,30h1v1h-1zM17,30h1v1h-1zM22,30h1v1h-1zM23,30h1v1h-1zM24,30h1v1h-1zM27,30h1v1h-1zM28,30h1v1h-1zM29,30h1v1h-1zM30,30h1v1h-1zM31,30h1v1h-1zM32,30h1v1h-1zM34,30h1v1h-1zM36,30h1v1h-1zM38,30h1v1h-1zM40,30h1v1h-1zM3,31h1v1h-1zM5,31h1v1h-1zM7,31h1v1h-1zM10,31h1v1h-1zM11,31h1v1h-1zM12,31h1v1h-1zM14,31h1v1h-1zM15,31h1v1h-1zM18,31h1v1h-1zM19,31h1v1h-1zM21,31h1v1h-1zM22,31h1v1h-1zM28,31h1v1h-1zM29,31h1v1h-1zM32,31h1v1h-1zM39,31h1v1h-1zM41,31h1v1h-1zM2,32h1v1h-1zM4,32h1v1h-1zM5,32h1v1h-1zM7,32h1v1h-1zM8,32h1v1h-1zM9,32h1v1h-1zM10,32h1v1h-1zM13,32h1v1h-1zM14,32h1v1h-1zM15,32h1v1h-1zM18,32h1v1h-1zM22,32h1v1h-1zM23,32h1v1h-1zM24,32h1v1h-1zM26,32h1v1h-1zM28,32h1v1h-1zM30,32h1v1h-1zM34,32h1v1h-1zM38,32h1v1h-1zM40,32h1v1h-1zM41,32h1v1h-1zM42,32h1v1h-1zM3,33h1v1h-1zM5,33h1v1h-1zM7,33h1v1h-1zM9,33h1v1h-1zM10,33h1v1h-1zM14,33h1v1h-1zM15,33h1v1h-1zM16,33h1v1h-1zM19,33h1v1h-1zM20,33h1v1h-1zM23,33h1v1h-1zM25,33h1v1h-1zM26,33h1v1h-1zM27,33h1v1h-1zM28,33h1v1h-1zM29,33h1v1h-1zM30,33h1v1h-1zM31,33h1v1h-1zM32,33h1v1h-1zM33,33h1v1h-1zM35,33h1v1h-1zM36,33h1v1h-1zM37,33h1v1h-1zM2,34h1v1h-1zM5,34h1v1h-1zM7,34h1v1h-1zM8,34h1v1h-1zM9,34h1v1h-1zM10,34h1v1h-1zM11,34h1v1h-1zM12,34h1v1h-1zM13,34h1v1h-1zM16,34h1v1h-1zM17,34h1v1h-1zM18,34h1v1h-1zM19,34h1v1h-1zM20,34h1v1h-1zM22,34h1v1h-1zM26,34h1v1h-1zM27,34h1v1h-1zM30,34h1v1h-1zM31,34h1v1h-1zM32,34h1v1h-1zM33,34h1v1h-1zM34,34h1v1h-1zM35,34h1v1h-1zM36,34h1v1h-1zM37,34h1v1h-1zM38,34h1v1h-1zM39,34h1v1h-1zM40,34h1v1h-1zM10,35h1v1h-1zM13,35h1v1h-1zM14,35h1v1h-1zM16,35h1v1h-1zM17,35h1v1h-1zM20,35h1v1h-1zM21,35h1v1h-1zM22,35h1v1h-1zM23,35h1v1h-1zM24,35h1v1h-1zM26,35h1v1h-1zM28,35h1v1h-1zM31,35h1v1h-1zM34,35h1v1h-1zM38,35h1v1h-1zM40,35h1v1h-1zM41,35h1v1h-1zM2,36h1v1h-1zM3,36h1v1h-1zM4,36h1v1h-1zM5,36h1v1h-1zM6,36h1v1h-1zM7,36h1v1h-1zM8,36h1v1h-1zM13,36h1v1h-1zM14,36h1v1h-1zM15,36h1v1h-1zM16,36h1v1h-1zM19,36h1v1h-1zM22,36h1v1h-1zM24,36h1v1h-1zM26,36h1v1h-1zM27,36h1v1h-1zM30,36h1v1h-1zM34,36h1v1h-1zM36,36h1v1h-1zM38,36h1v1h-1zM41,36h1v1h-1zM42,36h1v1h-1zM2,37h1v1h-1zM8,37h1v1h-1zM11,37h1v1h-1zM16,37h1v1h-1zM17,37h1v1h-1zM21,37h1v1h-1zM22,37h1v1h-1zM23,37h1v1h-1zM24,37h1v1h-1zM25,37h1v1h-1zM26,37h1v1h-1zM27,37h1v1h-1zM29,37h1v1h-1zM31,37h1v1h-1zM34,37h1v1h-1zM38,37h1v1h-1zM41,37h1v1h-1zM42,37h1v1h-1zM2,38h1v1h-1zM4,38h1v1h-1zM5,38h1v1h-1zM6,38h1v1h-1zM8,38h1v1h-1zM10,38h1v1h-1zM12,38h1v1h-1zM15,38h1v1h-1zM22,38h1v1h-1zM30,38h1v1h-1zM31,38h1v1h-1zM32,38h1v1h-1zM34,38h1v1h-1zM35,38h1v1h-1zM36,38h1v1h-1zM37,38h1v1h-1zM38,38h1v1h-1zM40,38h1v1h-1zM2,39h1v1h-1zM4,39h1v1h-1zM5,39h1v1h-1zM6,39h1v1h-1zM8,39h1v1h-1zM11,39h1v1h-1zM13,39h1v1h-1zM14,39h1v1h-1zM15,39h1v1h-1zM18,39h1v1h-1zM19,39h1v1h-1zM21,39h1v1h-1zM22,39h1v1h-1zM24,39h1v1h-1zM25,39h1v1h-1zM27,39h1v1h-1zM29,39h1v1h-1zM31,39h1v1h-1zM33,39h1v1h-1zM34,39h1v1h-1zM37,39h1v1h-1zM39,39h1v1h-1zM41,39h1v1h-1zM42,39h1v1h-1zM2,40h1v1h-1zM4,40h1v1h-1zM5,40h1v1h-1zM6,40h1v1h-1zM8,40h1v1h-1zM10,40h1v1h-1zM11,40h1v1h-1zM13,40h1v1h-1zM14,40h1v1h-1zM16,40h1v1h-1zM17,40h1v1h-1zM18,40h1v1h-1zM19,40h1v1h-1zM21,40h1v1h-1zM23,40h1v1h-1zM24,40h1v1h-1zM25,40h1v1h-1zM26,40h1v1h-1zM27,40h1v1h-1zM28,40h1v1h-1zM35,40h1v1h-1zM36,40h1v1h-1zM37,40h1v1h-1zM38,40h1v1h-1zM40,40h1v1h-1zM41,40h1v1h-1zM42,40h1v1h-1zM2,41h1v1h-1zM8,41h1v1h-1zM12,41h1v1h-1zM13,41h1v1h-1zM16,41h1v1h-1zM18,41h1v1h-1zM19,41h1v1h-1zM20,41h1v1h-1zM21,41h1v1h-1zM23,41h1v1h-1zM27,41h1v1h-1zM31,41h1v1h-1zM33,41h1v1h-1zM35,41h1v1h-1zM38,41h1v1h-1zM39,41h1v1h-1zM40,41h1v1h-1zM41,41h1v1h-1zM2,42h1v1h-1zM3,42h1v1h-1zM4,42h1v1h-1zM5,42h1v1h-1zM6,42h1v1h-1zM7,42h1v1h-1zM8,42h1v1h-1zM10,42h1v1h-1zM11,42h1v1h-1zM16,42h1v1h-1zM17,42h1v1h-1zM18,42h1v1h-1zM23,42h1v1h-1zM24,42h1v1h-1zM25,42h1v1h-1zM29,42h1v1h-1zM30,42h1v1h-1zM32,42h1v1h-1zM33,42h1v1h-1zM35,42h1v1h-1zM36,42h1v1h-1zM37,42h1v1h-1zM38,42h1v1h-1zM39,42h1v1h-1zM41,42h1v1h-1zM42,42h1v1h-1z" fill="currentColor"/></svg></span><a class="wf-bcard__save" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0D%0AVERSION%3A3.0%0D%0AN%3A%EC%9E%90%EB%91%90%EC%99%80%20%EC%86%A1%EC%A7%84%3B%3B%3B%3B%0D%0AFN%3A%EC%9E%90%EB%91%90%EC%99%80%20%EC%86%A1%EC%A7%84%0D%0ANICKNAME%3APlum%20%26%20Pitch%0D%0ATITLE%3A%EC%A1%B0%ED%96%A5%20%C2%B7%20%ED%96%A5%EC%88%98%20%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%0D%0AEND%3AVCARD" download="자두와 송진.vcf">연락처 저장</a></div>
         </div></div>
         </div>
-        <label class="wf-bcard__flipbtn" for="bcflip-x2-2">뒤집기</label>
-        <button type="button" class="wf-bcard__png" data-name="자두와 송진" title="이 명함을 PNG 그림으로 저장합니다" aria-label="명함을 PNG로 저장"><svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><path d="M12 3v10m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </div>
+      </div><div class="wf-bcard__tools"><label class="wf-bcard__flipbtn" for="bcflip-x2-2">뒤집기</label><button type="button" class="wf-bcard__png" data-name="자두와 송진" title="이 명함을 PNG 그림으로 저장합니다"><svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><path d="M12 3v10m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>그림으로 저장</button></div></div>
     </section>
     </div>
     <div class="wf" style="grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);grid-template-rows:auto;gap:18px">
-    <div class="wf__region" id="contact" data-enter="up" style="grid-column:1 / -1;grid-row:1;min-height:0px;border-radius:18px;border-width:1px;border-color:var(--wf-line, currentColor);padding:min(24px, 6vw);background-color:rgba(240, 246, 255, 1)"><footer class="wf-bar wf-bar--foot" style="justify-content:space-between">
-        <span class="wf-foot__text">© 2026 자두와 송진</span>
-        <nav class="wf-nav" style="gap:18px">
+    <div class="wf__region" id="contact" data-enter="up" style="grid-column:1 / -1;grid-row:1;min-height:0px;border-radius:18px;border-width:0px;padding:min(24px, 6vw);background-color:rgba(240, 238, 233, 1)"><footer class="wf-foot wf-foot--std">
+        <div class="wf-foot__top"><b class="wf-foot__name">자두와 송진</b><nav class="wf-nav" style="gap:18px">
         <a href="index.html" class="wf-nav__item is-current">Home</a>
         <a href="notes.html" class="wf-nav__item">Notes</a>
-      </nav>
-        
-        <a class="wf-foot__mail" href="mailto:nose@plumandpitch.example">nose@plumandpitch.example</a>
+      </nav></div>
+        <div class="wf-foot__info"><p><span><b>상호</b> 자두와 송진</span></p><p><span><b>이메일</b> <a href="mailto:nose@plumandpitch.example">nose@plumandpitch.example</a></span></p></div>
+        <div class="wf-foot__bottom"><span class="wf-foot__text">© <span data-year="2026">2026</span><script>(function(e){e=document.currentScript.previousElementSibling;var y=new Date().getFullYear();if(y>+e.getAttribute('data-year'))e.textContent=y;})();</script> 자두와 송진</span></div>
       </footer></div>
     </div>
-    <a class="wf-down" href="#%EC%98%AC%ED%95%B4%EC%9D%98-%EC%97%AC%EC%84%AF" aria-label="아래로 이동"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+    <a class="wf-down" href="#%EC%98%AC%ED%95%B4-%EB%82%B8-%ED%96%A5" aria-label="아래로 이동"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
   </div>
+  <script>(function(){if(!('IntersectionObserver' in window))return;var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('is-tfx-wait');io.unobserve(e.target);}});},{threshold:0.15});[].forEach.call(document.querySelectorAll('.wf-tfx'),function(el){if(el.getBoundingClientRect().top>innerHeight*0.85){el.classList.add('is-tfx-wait');io.observe(el);}});})();</script>
   <script type="module" src="./assets/init.js"></script>
   <script>(function(){
 var EDITOR_ONLY=".wf-bcard__png, .wf-bcard__flipbtn, .wf-bcard__toggle";
-var cardToPngBlob=function cardToPngBlob(card, scale) {
-  const doc = card.ownerDocument;
-  const win = doc.defaultView;
-  const ratio = scale || 3;
-  const w = Math.round(card.getBoundingClientRect().width);
-  const h = Math.round(card.getBoundingClientRect().height);
-
-  /* 지금 문서에 걸린 규칙을 모읍니다. 다른 출처의 시트는 읽을 수 없어 건너뜁니다. */
-  let css = '';
-  for (const sheet of Array.from(doc.styleSheets)) {
-    try {
-      css += Array.from(sheet.cssRules).map((r) => r.cssText).join('\n') + '\n';
-    } catch (err) {
-      /* 읽을 수 없는 시트 — 우리 것이 아니므로 넘어갑니다. */
-    }
-  }
-
-  /* 앞뒤 판이면 두 면을 한 장에 나란히 담습니다. */
-  const twoFace = !!card.querySelector('.wf-bcard__face--back');
-  const gap = twoFace ? Math.round(w * 0.04) : 0;
-  const outW = twoFace ? w * 2 + gap : w;
-
-  const prep = (faceKind) => {
-    const clone = card.cloneNode(true);
-    clone.querySelectorAll(EDITOR_ONLY).forEach((n) => n.remove());
-    clone.querySelectorAll('.wf-edit').forEach((n) => n.classList.remove('wf-edit'));
-    clone.querySelectorAll('[contenteditable]').forEach((n) => n.removeAttribute('contenteditable'));
-    clone.querySelectorAll('[data-ph]').forEach((n) => n.removeAttribute('data-ph'));
-    if (faceKind) {
-      /*
-       * 한 면씩 따로 굽습니다. 뒷면은 Y축으로 돌려 둔 것이라 그대로 두면
-       * 좌우가 뒤집힌 채 앞면과 겹쳐 나옵니다 — 돌림을 풀고 반대쪽 면을
-       * 덜어내야 제 모습이 나옵니다.
-       */
-      const drop = faceKind === 'front' ? '.wf-bcard__face--back' : '.wf-bcard__face--front';
-      const gone = clone.querySelector(drop);
-      if (gone) gone.remove();
-      const flip = clone.querySelector('.wf-bcard__flip');
-      if (flip) flip.setAttribute('style', 'transform:none;position:absolute;inset:0');
-      const face = clone.querySelector('.wf-bcard__face');
-      if (face) face.setAttribute('style', 'transform:none;backface-visibility:visible');
-    }
-    return new win.XMLSerializer().serializeToString(clone);
-  };
-
-  const safeCss = css.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-  const box = (markup, x) =>
-    '<foreignObject x="' + x + '" y="0" width="' + w + '" height="' + h + '">' +
-    '<div xmlns="http://www.w3.org/1999/xhtml" style="width:' + w + 'px;height:' + h + 'px">' +
-    markup + '</div></foreignObject>';
-
-  const svg =
-    '<svg xmlns="http://www.w3.org/2000/svg" width="' + outW * ratio + '" height="' + h * ratio + '" viewBox="0 0 ' + outW + ' ' + h + '">' +
-    '<style>' + safeCss + '</style>' +
-    (twoFace
-      ? box(prep('front'), 0) + box(prep('back'), w + gap)
-      : box(prep(null), 0)) +
-    '</svg>';
-
-  return new Promise((resolve, reject) => {
-    const img = new win.Image();
-    img.onload = () => {
-      const canvas = doc.createElement('canvas');
-      canvas.width = outW * ratio;
-      canvas.height = h * ratio;
-      const ctx = canvas.getContext('2d');
-      ctx.drawImage(img, 0, 0);
-      canvas.toBlob((blob) => (blob ? resolve(blob) : reject(new Error('PNG 변환 실패'))), 'image/png');
-    };
-    img.onerror = () => reject(new Error('명함을 그림으로 옮기지 못했습니다'));
-    img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
-  });
-};
-var downloadCardPng=function downloadCardPng(card, name) {
-  const doc = card.ownerDocument;
-  const win = doc.defaultView;
-  return cardToPngBlob(card, 3).then((blob) => {
-    const url = win.URL.createObjectURL(blob);
-    const a = doc.createElement('a');
-    a.href = url;
-    a.download = (name || '명함') + '.png';
-    doc.body.appendChild(a);
-    a.click();
-    a.remove();
-    /* 주소를 바로 놓아주면 내려받기가 시작되기 전에 끊길 수 있습니다. */
-    win.setTimeout(() => win.URL.revokeObjectURL(url), 10000);
-  });
-};
-document.addEventListener('click',function(e){var b=e.target.closest('.wf-bcard__png');if(!b)return;var card=b.closest('.wf-bcard');if(!card)return;downloadCardPng(card, b.getAttribute("data-name") || "명함");});
+var cardToPngBlob=function Kt(e,r){const n=e.ownerDocument,t=n.defaultView,a=r||3,o=Math.round(e.getBoundingClientRect().width),i=Math.round(e.getBoundingClientRect().height);let s="";for(const T of Array.from(n.styleSheets))try{s+=Array.from(T.cssRules).map(q=>q.cssText).join(`
+`)+`
+`}catch{}const f=!!e.querySelector(".wf-bcard__face--back"),g=f?Math.round(o*.04):0,w=f?o*2+g:o,b=T=>{const q=e.cloneNode(!0);if(q.querySelectorAll(Yt).forEach(O=>O.remove()),q.querySelectorAll(".wf-edit").forEach(O=>O.classList.remove("wf-edit")),q.querySelectorAll("[contenteditable]").forEach(O=>O.removeAttribute("contenteditable")),q.querySelectorAll("[data-ph]").forEach(O=>O.removeAttribute("data-ph")),T){const O=T==="front"?".wf-bcard__face--back":".wf-bcard__face--front",B=q.querySelector(O);B&&B.remove();const U=q.querySelector(".wf-bcard__flip");U&&U.setAttribute("style","transform:none;position:absolute;inset:0");const F=q.querySelector(".wf-bcard__face");F&&F.setAttribute("style","transform:none;backface-visibility:visible")}return new t.XMLSerializer().serializeToString(q)},h=s.replace(/&/g,"&amp;").replace(/</g,"&lt;"),j=(T,q)=>'<foreignObject x="'+q+'" y="0" width="'+o+'" height="'+i+'"><div xmlns="http://www.w3.org/1999/xhtml" style="width:'+o+"px;height:"+i+'px">'+T+"</div></foreignObject>",L='<svg xmlns="http://www.w3.org/2000/svg" width="'+w*a+'" height="'+i*a+'" viewBox="0 0 '+w+" "+i+'"><style>'+h+"</style>"+(f?j(b("front"),0)+j(b("back"),o+g):j(b(null),0))+"</svg>";return new Promise((T,q)=>{const O=new t.Image;O.onload=()=>{const B=n.createElement("canvas");B.width=w*a,B.height=i*a,B.getContext("2d").drawImage(O,0,0),B.toBlob(F=>F?T(F):q(new Error("PNG 변환 실패")),"image/png")},O.onerror=()=>q(new Error("명함을 그림으로 옮기지 못했습니다")),O.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(L)})};
+var downloadCardPng=function As(e,r){const n=e.ownerDocument,t=n.defaultView;return Kt(e,3).then(a=>{const o=t.URL.createObjectURL(a),i=n.createElement("a");i.href=o,i.download=(r||"명함")+".png",n.body.appendChild(i),i.click(),i.remove(),t.setTimeout(()=>t.URL.revokeObjectURL(o),1e4)})};
+document.addEventListener('click',function(e){var b=e.target.closest('.wf-bcard__png');if(!b)return;var box=b.closest('.wf-bcardbox');var card=box&&box.querySelector('.wf-bcard');if(!card)return;downloadCardPng(card, b.getAttribute("data-name") || "명함");});
 })();</script>
 </body>
 </html>
