@@ -1,6 +1,6 @@
-# 자두와 송진 — 조향 스튜디오
+# 김하린 · 퍼포먼스 마케터
 
-Portfolio Maker로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
+포메(Portfolio Maker)로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
 
 ## 열기
 
@@ -15,8 +15,10 @@ python -m http.server 5500
 
 ## 페이지
 
-- `index.html` — Home
-- `notes.html` — Notes
+- `index.html` — 홈
+- `광고.html` — 광고
+- `이력.html` — 이력
+- `연락하기.html` — 연락하기
 
 ## 구조
 
@@ -24,7 +26,7 @@ python -m http.server 5500
 index.html 등        페이지마다 한 장
 assets/site.css      레이아웃 · 테마 · 파트 스타일
 assets/init.js       3D 효과 마운트
-effects/             효과 팩 (_core · tilt-card · scroll-reveal · hover-preview · model-showcase · magnetic-button · smooth-scroll · cursor-dot)
+effects/             효과 팩 (_core · model-showcase)
 ```
 
 ## 고치는 법
